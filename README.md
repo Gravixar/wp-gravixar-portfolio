@@ -1,5 +1,5 @@
 # Gravixar Portfolio 
-* Contributors: 
+* Contributors: fahdi
 * Donate link: https://www.gravixarthemes.com
 * Tags: full width portfolio, portfolio, artwork, full width showcase, full width gallery, portfolio grid, full width grid, full width portfolio grid, full screen portfolio, responsive portfolio, responsive portfolio grid, responsive grid
 * Requires at least: 3.0.1
