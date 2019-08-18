@@ -7,8 +7,8 @@ function gravixar_portfolio_scripts() {
 	// Featherlight
         wp_enqueue_style( 'gravixarflcss', plugin_dir_url(dirname(__FILE__)) . 'css/featherlight.min.css');
         wp_enqueue_style( 'gravixarflgallerycss', plugin_dir_url(dirname(__FILE__)) . 'css/featherlight.gallery.min.css');
-        wp_enqueue_script( 'gravixarfljs', plugin_dir_url(dirname(__FILE__)) . 'js/featherlight.min.js','','',true);
-        wp_enqueue_script( 'gravixarflgalleryjs', plugin_dir_url(dirname(__FILE__)) . 'js/featherlight.gallery.min.js','','',true);
+        wp_enqueue_script( 'gravixarfljs', plugin_dir_url(dirname(__FILE__)) . 'js/featherlight.min.js',['jquery'],'',true);
+        wp_enqueue_script( 'gravixarflgalleryjs', plugin_dir_url(dirname(__FILE__)) . 'js/featherlight.gallery.min.js',['jquery'],'',true);
 	// Main CSS
         wp_enqueue_style( 'gravixarportfolio', plugin_dir_url(dirname(__FILE__)) . 'css/gravixar_portfolio.css');
 }
