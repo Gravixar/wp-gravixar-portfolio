@@ -43,7 +43,7 @@ function gravixar_portfolio_shortcode($atts){
 		$numperrow = 6;
 	}
 
-	
+
 	global $post;
 	$out = '';
 	$posts = new WP_Query($args);
