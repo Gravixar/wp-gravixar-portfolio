@@ -17,7 +17,9 @@ require_once(plugin_dir_path(__FILE__).'components/metabox.php' );
 function gravixar_portfolio_get_image_id($image_url) {
     global $wpdb;
     $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url ));
+      if(sizeof( $attachment) > 0)
         return $attachment[0];
+      return -1;
 }
 
 // Short-code for multiple portfolio system
